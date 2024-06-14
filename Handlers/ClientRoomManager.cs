@@ -16,10 +16,17 @@ namespace ChatLib.Handlers
       int roomId = clientHandler.InitialData!.RoomId;
 
       if (_roomHandlersDict.TryGetValue(roomId, out _)){
-        _roomHandlersDict[roomId].Add(clientHandler);
+         // 두번째 사용자 삽입부터
+         if(_roomHandlersDict[roomId].Count >= 4) {
+            Console.WriteLine("게임시작");
+            //게임시작
+         } else {
+           _roomHandlersDict[roomId].Add(clientHandler);
+         }
       }
       else
       {
+        //첫 방 생성 뒤 사용자 삽입
         _roomHandlersDict[roomId] = new List<ClientHandler>() { clientHandler };
       }
     }
