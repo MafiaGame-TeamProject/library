@@ -23,6 +23,7 @@ namespace ChatLib.Handlers
         {
             _client = client;
             _stream = client.GetStream();
+
         }
 
         public ChatHub? InitialData { get; private set; }

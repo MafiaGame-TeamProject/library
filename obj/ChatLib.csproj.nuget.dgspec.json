@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusrns48\\Desktop\\chat-room\\TCP-ChattingRoom\\ChatLib\\ChatLib.csproj": {}
+    "C:\\Users\\ibsun\\OneDrive\\바탕 화면\\APP\\library\\ChatLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusrns48\\Desktop\\chat-room\\TCP-ChattingRoom\\ChatLib\\ChatLib.csproj": {
+    "C:\\Users\\ibsun\\OneDrive\\바탕 화면\\APP\\library\\ChatLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusrns48\\Desktop\\chat-room\\TCP-ChattingRoom\\ChatLib\\ChatLib.csproj",
+        "projectUniqueName": "C:\\Users\\ibsun\\OneDrive\\바탕 화면\\APP\\library\\ChatLib.csproj",
         "projectName": "ChatLib",
-        "projectPath": "C:\\Users\\gusrns48\\Desktop\\chat-room\\TCP-ChattingRoom\\ChatLib\\ChatLib.csproj",
-        "packagesPath": "C:\\Users\\gusrns48\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusrns48\\Desktop\\chat-room\\TCP-ChattingRoom\\ChatLib\\obj\\",
+        "projectPath": "C:\\Users\\ibsun\\OneDrive\\바탕 화면\\APP\\library\\ChatLib.csproj",
+        "packagesPath": "C:\\Users\\ibsun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ibsun\\OneDrive\\바탕 화면\\APP\\library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gusrns48\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ibsun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -22,3 +22,15 @@ C:\Users\gusrns48\Desktop\chat-room\TCP-ChattingRoom\ChatLib\obj\Debug\net7.0\Ch
 C:\Users\gusrns48\Desktop\chat-room\TCP-ChattingRoom\ChatLib\obj\Debug\net7.0\refint\ChatLib.dll
 C:\Users\gusrns48\Desktop\chat-room\TCP-ChattingRoom\ChatLib\obj\Debug\net7.0\ChatLib.pdb
 C:\Users\gusrns48\Desktop\chat-room\TCP-ChattingRoom\ChatLib\obj\Debug\net7.0\ref\ChatLib.dll
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\bin\Debug\net7.0\ChatLib.deps.json
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\bin\Debug\net7.0\ChatLib.dll
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\bin\Debug\net7.0\ChatLib.pdb
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\obj\Debug\net7.0\ChatLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\obj\Debug\net7.0\ChatLib.AssemblyInfoInputs.cache
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\obj\Debug\net7.0\ChatLib.AssemblyInfo.cs
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\obj\Debug\net7.0\ChatLib.csproj.CoreCompileInputs.cache
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\obj\Debug\net7.0\ChatLib.sourcelink.json
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\obj\Debug\net7.0\ChatLib.dll
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\obj\Debug\net7.0\refint\ChatLib.dll
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\obj\Debug\net7.0\ChatLib.pdb
+C:\Users\ibsun\OneDrive\바탕 화면\APP\library\obj\Debug\net7.0\ref\ChatLib.dll
