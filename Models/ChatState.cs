@@ -8,6 +8,6 @@ namespace ChatLib.Models
 {
   public enum ChatState
   {
-    None, Initial, Connect, Disconnect
-  }
+    None, Initial, Connect, Disconnect, Message
+    }
 }

@@ -22,9 +22,8 @@ namespace ChatLib.Handlers
                 userList[i] = new Dictionary<int, List<ClientHandler>>();
             }
         }
-        //new List
 
-        public void Add(ClientHandler clientHandler)
+        public List<ClientHandler> Add(ClientHandler clientHandler)
         {
             int roomId = clientHandler.InitialData!.RoomId;
 
@@ -33,33 +32,40 @@ namespace ChatLib.Handlers
 
                 _roomHandlersDict[roomId].Add(clientHandler);
                 Dictionary<int, List<ClientHandler>> dic = new();
-                int i= 0;
+                
                 
                 _roomHandlersDict[roomId].ForEach(x =>
                     {
                         Console.WriteLine(x.InitialData);
-                        dic[roomId][i] = x;
+                        if (!dic.ContainsKey(roomId))
+                        {
+                            dic[roomId] = new List<ClientHandler>();
+                        }
+                        dic[roomId].Add(x);
+
                         userList[roomId] = dic;
-                        i++;
                     }
                 ); // 해당 방 사용자 출력
+                 return userList[roomId][roomId];
             }
             else //최초 생성 입장
             {
-                _roomHandlersDict[roomId] = new List<ClientHandler>() { clientHandler };
+                _roomHandlersDict[roomId] = new List<ClientHandler> { clientHandler };
                 Dictionary<int, List<ClientHandler>> dic = new();
-                dic[roomId][0] = clientHandler;
+                dic[roomId] = new List<ClientHandler> { clientHandler };
                 userList[roomId] = dic;
                 // List.Add(x.InitialData.roomId, x.InitialData.userName)
-                _roomHandlersDict[roomId].ForEach(x => Console.WriteLine(x.InitialData)); // 해당 방 사용자 출력
+                _roomHandlersDict[roomId].ForEach(x => Console.WriteLine(x.InitialData));
+                return userList[roomId][roomId];
             }
         }
 
-        public List<ClientHandler> RoomUser(int Id)
+        public List<ClientHandler> GetRoomUsers(int roomId)
         {
-            // 서버에서 클라이언트 들어온 거 처리할 때 까지 기다리는 코드 넣어야 할듯
-            return userList[Id][Id];
+            return userList[roomId][roomId];
         }
+
+       
 
         public void Remove(ClientHandler clientHandler)
         {
