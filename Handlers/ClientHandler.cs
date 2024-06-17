@@ -90,21 +90,5 @@ namespace ChatLib.Handlers
                 Console.WriteLine($"클라이언트로 메세지 전송 중 오류 발생: {ex.Message}");
             }
         }
-
-        public void GameInfoSend(GameHub hub)
-        {
-            try
-            {
-                byte[] buffer = Encoding.UTF8.GetBytes(hub.ToJsonString());
-                byte[] lengthBuffer = BitConverter.GetBytes(buffer.Length);
-
-                _stream.Write(lengthBuffer);
-                _stream.Write(buffer);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"클라이언트로 메세지 전송 중 오류 발생: {ex.Message}");
-            }
-        }
     }
 }
