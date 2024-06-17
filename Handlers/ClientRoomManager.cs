@@ -32,8 +32,8 @@ namespace ChatLib.Handlers
 
                 _roomHandlersDict[roomId].Add(clientHandler);
                 Dictionary<int, List<ClientHandler>> dic = new();
-                
-                
+
+
                 _roomHandlersDict[roomId].ForEach(x =>
                     {
                         Console.WriteLine(x.InitialData);
@@ -65,7 +65,7 @@ namespace ChatLib.Handlers
             return userList[roomId][roomId];
         }
 
-       
+
 
         public void Remove(ClientHandler clientHandler)
         {
