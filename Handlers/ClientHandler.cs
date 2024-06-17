@@ -75,7 +75,7 @@ namespace ChatLib.Handlers
             }
         }
 
-        public void Send(ChatHub hub)
+        public void Send(ChatHub hub, int liarIndex = 0)
         {
             try
             {
